@@ -21,18 +21,19 @@ const sidebar = {
       link: { type: 'doc', id: 'protocol/basics' },
       items: [
         {
-          "Getting Started": [
-            'protocol/basics',
-            'tutorials/protocol/create-account',
-          ],
+          'Getting Started': ['protocol/basics', 'tutorials/protocol/create-account'],
         },
         {
-          "Concepts": [
+          Concepts: [
             {
-              'Accounts / Contracts': ['protocol/account-model', 'protocol/account-id', 'protocol/access-keys'],
+              'Accounts / Contracts': [
+                'protocol/account-model',
+                'protocol/account-id',
+                'protocol/access-keys',
+              ],
             },
             {
-              'Transactions': [
+              Transactions: [
                 'protocol/transactions',
                 'protocol/transaction-anatomy',
                 'protocol/gas',
@@ -60,24 +61,24 @@ const sidebar = {
                 'protocol/network/runtime',
               ],
             },
-          ]
+          ],
         },
         {
-          "Tutorials": [
+          Tutorials: [
             'tutorials/protocol/create-account',
             'tutorials/protocol/importing-account',
-            'tools/faucet'
-          ]
+            'tools/faucet',
+          ],
         },
         {
-          "Reference": [
+          Reference: [
             'tools/near-cli',
             {
               type: 'link',
               label: 'RPC API ↗',
               href: '/api/rpc/introduction',
             },
-          ]
+          ],
         },
       ],
     },
@@ -91,12 +92,10 @@ const sidebar = {
       link: { type: 'doc', id: 'chain-abstraction/what-is' },
       items: [
         {
-          "Getting Started": [
-            "chain-abstraction/what-is"
-          ]
+          'Getting Started': ['chain-abstraction/what-is'],
         },
         {
-          "Concepts": [
+          Concepts: [
             'chain-abstraction/chain-signatures',
             'chain-abstraction/intents/overview',
             {
@@ -108,10 +107,10 @@ const sidebar = {
               ],
             },
             'chain-abstraction/data-availability',
-          ]
+          ],
         },
         {
-          "Tutorials": [
+          Tutorials: [
             'chain-abstraction/chain-signatures/implementation',
             {
               type: 'category',
@@ -134,7 +133,7 @@ const sidebar = {
                 'tutorials/multichain-dao/voting',
               ],
             },
-          ]
+          ],
         },
       ],
     },
@@ -148,27 +147,28 @@ const sidebar = {
       },
       items: [
         'ai/introduction',
+        'ai/near-mcp',
         {
-          "Shade Agents": [
+          'Shade Agents': [
             {
-              "Getting Started": [
+              'Getting Started': [
                 'ai/shade-agents/quickstart/deploying',
-                "ai/shade-agents/quickstart/components",
-              ]
-            },
-            {
-              "Concepts": [
-                "ai/shade-agents/introduction",
-                "ai/shade-agents/examples",
-                "ai/shade-agents/custom-agent-contract",
-                "ai/shade-agents/security",
-                "ai/shade-agents/plugins",
+                'ai/shade-agents/quickstart/components',
               ],
             },
-          ]
+            {
+              Concepts: [
+                'ai/shade-agents/introduction',
+                'ai/shade-agents/examples',
+                'ai/shade-agents/custom-agent-contract',
+                'ai/shade-agents/security',
+                'ai/shade-agents/plugins',
+              ],
+            },
+          ],
         },
         {
-          "Reference": [
+          Reference: [
             {
               type: 'link',
               label: 'NEAR AI',
@@ -179,8 +179,8 @@ const sidebar = {
               label: 'Bitte Protocol',
               href: 'https://docs.bitte.ai/',
             },
-          ]
-        }
+          ],
+        },
         // 'web3-apps/ai/ai-assistant'
       ],
     },
@@ -194,16 +194,13 @@ const sidebar = {
       },
       items: [
         {
-          "Getting Started": [
-            'smart-contracts/what-is',
-            'smart-contracts/quickstart',
-          ]
+          'Getting Started': ['smart-contracts/what-is', 'smart-contracts/quickstart'],
         },
         {
-          "Concepts": [
+          Concepts: [
             [
               {
-                "Anatomy of a Contract": [
+                'Anatomy of a Contract': [
                   'smart-contracts/anatomy/anatomy',
                   'smart-contracts/anatomy/functions',
                   'smart-contracts/anatomy/storage',
@@ -214,7 +211,7 @@ const sidebar = {
                   'smart-contracts/anatomy/crosscontract',
                   'smart-contracts/anatomy/yield-resume',
                   'smart-contracts/security/checklist',
-                ]
+                ],
               },
               'smart-contracts/global-contracts',
               {
@@ -259,10 +256,10 @@ const sidebar = {
                 ],
               },
             ],
-          ]
+          ],
         },
         {
-          "Tutorials": [
+          Tutorials: [
             'tutorials/examples/count-near',
             'tutorials/examples/guest-book',
             'tutorials/examples/donation',
@@ -274,7 +271,7 @@ const sidebar = {
             'tutorials/examples/global-contracts',
             'tutorials/examples/update-contract-migrate-state',
             {
-              "Build a FT Contract from Scratch": [
+              'Build a FT Contract from Scratch': [
                 'tutorials/fts/introduction',
                 'tutorials/fts/predeployed-contract',
                 'tutorials/fts/skeleton',
@@ -283,10 +280,10 @@ const sidebar = {
                 'tutorials/fts/registering-accounts',
                 'tutorials/fts/transfers',
                 'tutorials/fts/marketplace',
-              ]
+              ],
             },
             {
-              "Build a NFT Contract from Scratch": [
+              'Build a NFT Contract from Scratch': [
                 'tutorials/nfts/introduction',
                 {
                   Basic: [
@@ -304,10 +301,10 @@ const sidebar = {
                 },
                 'tutorials/nfts/royalty',
                 'tutorials/nfts/series',
-              ]
+              ],
             },
             {
-              "Build a NFT Contract from Scratch (JS)": [
+              'Build a NFT Contract from Scratch (JS)': [
                 'tutorials/nfts/js/introduction',
                 {
                   Basic: [
@@ -321,22 +318,15 @@ const sidebar = {
                 },
                 'tutorials/nfts/js/events',
                 {
-                  Marketplace: [
-                    'tutorials/nfts/js/approvals',
-                    'tutorials/nfts/js/marketplace'
-                  ],
+                  Marketplace: ['tutorials/nfts/js/approvals', 'tutorials/nfts/js/marketplace'],
                 },
                 'tutorials/nfts/js/royalty',
-              ]
+              ],
             },
-          ]
+          ],
         },
         {
-          "Reference": [
-            'resources/contracts-list',
-            'tools/sdk',
-            'tools/clear-state',
-          ]
+          Reference: ['resources/contracts-list', 'tools/sdk', 'tools/clear-state'],
         },
       ],
     },
@@ -350,12 +340,10 @@ const sidebar = {
       link: { type: 'doc', id: 'web3-apps/what-is' },
       items: [
         {
-          "Getting Started": [
-            'web3-apps/what-is',
-            'web3-apps/quickstart']
+          'Getting Started': ['web3-apps/what-is', 'web3-apps/quickstart'],
         },
         {
-          "Tutorials": [
+          Tutorials: [
             'web3-apps/integrate-contracts',
             'tutorials/examples/frontend-multiple-contracts',
             'web3-apps/ethereum-wallets',
@@ -391,15 +379,12 @@ const sidebar = {
                 },
                 'tutorials/auction/auction-factory',
               ],
-            }
-          ]
+            },
+          ],
         },
         {
-          "Reference": [
-            'tools/near-api',
-            'tools/wallet-selector',
-          ]
-        }
+          Reference: ['tools/near-api', 'tools/wallet-selector'],
+        },
       ],
     },
     {
@@ -413,16 +398,14 @@ const sidebar = {
       items: [
         { type: 'link', label: 'Introduction', href: '/primitives/what-is' },
         {
-          "Fungible Tokens": [
-            'primitives/ft',
-          ]
+          'Fungible Tokens': ['primitives/ft'],
         },
         {
-          "Non-Fungible Tokens": [
+          'Non-Fungible Tokens': [
             'primitives/nft',
             'data-infrastructure/lake-framework/building-indexers/nft-indexer',
             'data-infrastructure/lake-framework/building-indexers/python-nft-indexer',
-          ]
+          ],
         },
         'protocol/network/staking',
         'primitives/linkdrop',
@@ -447,7 +430,7 @@ const sidebar = {
           href: '/data-infrastructure/what-is',
         },
         {
-          "Concepts": [
+          Concepts: [
             'data-infrastructure/data-apis',
             'data-infrastructure/big-query',
             'tools/indexing',
@@ -480,10 +463,10 @@ const sidebar = {
                 },
               ],
             },
-          ]
+          ],
         },
         {
-          "Reference": [
+          Reference: [
             'tools/explorer',
             {
               type: 'category',
@@ -493,9 +476,9 @@ const sidebar = {
                 'tools/ecosystem-apis/fastnear',
                 'tools/ecosystem-apis/nearblocks',
                 'tools/ecosystem-apis/pikespeak',
-              ]
-            }
-          ]
+              ],
+            },
+          ],
         },
       ],
     },
@@ -542,9 +525,7 @@ const sidebar = {
     },
     'integrations/faq',
   ],
-  toolbox: [
-    'toolbox',
-  ]
+  toolbox: ['toolbox'],
 };
 
 export default sidebar;

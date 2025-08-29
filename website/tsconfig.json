@@ -12,6 +12,11 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ESNEXT"
-  }
+    "target": "ESNEXT",
+    "allowJs": true,
+    "outDir": "./dist",
+    "noEmit": true
+  },
+  "include": ["src/**/*", "*.js", "*.ts", "*.tsx"],
+  "exclude": ["node_modules", "dist", "build", ".next"]
 }
